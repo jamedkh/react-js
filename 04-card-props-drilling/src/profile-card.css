@@ -1,0 +1,137 @@
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 320px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.profile-card .header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-card .menuButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.profile-card .menuButton:hover {
+  color: #333;
+}
+
+.profile-card .imageWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 24px 20px 16px 20px;
+}
+
+.profile-card .profileImage {
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.profile-card .content {
+  text-align: center;
+  padding: 16px 20px;
+}
+
+.profile-card .name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 12px 0;
+}
+
+.profile-card .badge {
+  display: inline-block;
+  background-color: #5b6eff;
+  color: #ffffff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.profile-card .contactSection {
+  background-color: #f9fafb;
+  padding: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.profile-card .contactItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.profile-card .contactItem:last-child {
+  margin-bottom: 0;
+}
+
+.profile-card .icon {
+  font-size: 18px;
+  margin-right: 12px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.profile-card .contactText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.profile-card .label {
+  font-size: 12px;
+  color: #7a8a99;
+  font-weight: 500;
+}
+
+.profile-card .value {
+  font-size: 14px;
+  color: #b5bcc4;
+  font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  .profile-card .card {
+    max-width: 100%;
+  }
+
+  .profile-card .profileImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-card .name {
+    font-size: 20px;
+  }
+}
