@@ -14,7 +14,7 @@ const Card = (profileCard) => {
         <div className="imageWrapper">
           <img
             src={profileCard.img}
-            alt="Addison James profile"
+            alt={profileCard.name}
             className="profileImage"
           />
         </div>
