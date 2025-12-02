@@ -3,9 +3,8 @@ const Header = () => {
   return (
     <>
       <nav className={styles.nav}>
-        <span>
-          <img src="../../assets/react.svg" alt="logo" />
-        </span>
+        <h1 className={styles.logo}>BraVior</h1>
+
         <ul>
           <li class="active">
             <a href="">First</a>
