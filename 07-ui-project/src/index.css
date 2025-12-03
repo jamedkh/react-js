@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+:root {
+  --body-font: "DM Sans", sans-serif;
+  --heading-font: "Crimson Text", sans-serif;
+  --caption-font: "Roboto Mono", sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+.heading-font {
+  font-family: var(--heading-font);
+}
+
+.caption-font {
+  font-family: var(--caption-font);
+}
