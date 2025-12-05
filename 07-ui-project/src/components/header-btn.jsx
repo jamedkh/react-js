@@ -3,8 +3,8 @@ import React from "react";
 function HeaderBtn() {
   return (
     <a
-      href="javascript:void(0);"
-      className="rounded-full text-white bg-green-800"
+      href="/"
+      className="lg:inline-flex rounded-full text-white bg-(--primary-300) text-bold px-4 py-3 hover:bg-(--primary-200)  transition-colors duration-300 ease-in-out hidden"
     >
       Learn More
     </a>
