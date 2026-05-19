@@ -1,4 +1,3 @@
-import React from "react";
 import SubSectionTitle from "./sub-section-title";
 import PointContent from "./point-content";
 

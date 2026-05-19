@@ -15,6 +15,7 @@ import PriceCard from "./components/price-card";
 import LeftContent from "./components/left-content";
 import RightContent from "./components/right-content";
 import NumberCard from "./components/number-card";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -141,6 +142,34 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className="lg:px-0 px-4 lg:pb-40 pb-8">
+        <div className="container mx-auto text-center">
+          <picture>
+            <source media="(min-width: 575px)" srcset="/image-container.png" />
+            <img
+              src="/image-container-2.png"
+              alt="hero"
+              className="inline-block max-w-full"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section className="lg:px-0 px-4 text-center mb-20 ">
+        <FullSectionTitle
+          title="Connect with us"
+          description="Schedule a quick call to learn how Area can turn your regional data into a powerful advantage."
+        />
+        <a
+          href="/"
+          className="bg-(--primary-300) rounded-full text-white font-bold py-4 px-8 mt-12 inline-flex"
+        >
+          Learn More
+        </a>
+      </section>
+
+      <Footer />
     </>
   );
 }

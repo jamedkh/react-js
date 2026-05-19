@@ -1,5 +1,3 @@
-import React from "react";
-
 const NumberCard = (numberCardProps) => {
   return (
     <div className="border-t border-t-(--divider) flex flex-col lg:gap-8 gap-4 pt-10">
